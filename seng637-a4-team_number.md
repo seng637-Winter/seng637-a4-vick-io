@@ -125,7 +125,7 @@ After commenting out failing test cases in Assignment 3, we ran mutation tests o
 
 - **Mutation statistics of Range - before**
 
-  ![Range_Mutants_Statistics_Before](Part%201/Rmutation_stat_range_before.png)
+  ![Range_Mutants_Statistics_Before](Part%201/mutation_stat_range_before.png)
 
   Due to the the Range class containing other methods that are not tested, the overall score is not a very accurate measure of the coverage. Below is the coverage of each method calculated manually.
 

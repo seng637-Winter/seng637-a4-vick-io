@@ -389,8 +389,5 @@ Element Locators Stability: Finding stable element locators was challenging, esp
 
 # Comments/feedback on the assignment itself
 
-The assignment effectively introduced mutation testing and Selenium web testing, providing valuable hands-on experience.
+The assignment effectively introduced mutation testing and Selenium web testing, providing valuable hands-on experience. It covered a wide range of testing scenarios, offered practical experience with essential testing tools, and encouraged analytical thinking.
 
-It covered a wide range of testing scenarios, offered practical experience with essential testing tools, and encouraged analytical thinking.
-
-Overall, the assignment was educational, though addressing the highlighted areas could further improve its effectiveness and accessibility.

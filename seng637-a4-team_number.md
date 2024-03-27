@@ -13,6 +13,8 @@
 
 # Introduction
 
+This lab report outlines our approach and findings from the assignment on mutation testing and Selenium web application testing. Our task involved analyzing the behavior of software under test through mutation testing to identify weaknesses in our test cases and using Selenium for automating tests on web applications. The goal was to enhance our understanding of testing methodologies and improve the reliability of software systems. This report summarizes the techniques employed, the results achieved, and the insights gained from these testing practices.
+
 ## Analysis of 10 mutants of the Range class
 
 1. #### Mutation #1 (on line #157, mutation #1)

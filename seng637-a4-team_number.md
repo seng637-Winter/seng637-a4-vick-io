@@ -121,11 +121,11 @@ After commenting out failing test cases in Assignment 3, we ran mutation tests o
 
 - **Mutation score of Range - before**
 
-  ![Range_Mutants_Score_Before](Range_PIT_screenshot_before.png)
+  ![Range_Mutants_Score_Before](Part%201/Range_PIT_screenshot_before.png)
 
 - **Mutation statistics of Range - before**
 
-  ![Range_Mutants_Statistics_Before](mutation_stat_range_before.png)
+  ![Range_Mutants_Statistics_Before](Part%201/Rmutation_stat_range_before.png)
 
   Due to the the Range class containing other methods that are not tested, the overall score is not a very accurate measure of the coverage. Below is the coverage of each method calculated manually.
 
@@ -141,11 +141,11 @@ After commenting out failing test cases in Assignment 3, we ran mutation tests o
 
 - **Mutation score of Range - after**
 
-  ![Range_Mutants_Score_After](Range_PIT_screenshot_after.png)
+  ![Range_Mutants_Score_After](Part%201/Range_PIT_screenshot_after.png)
 
 - **Mutation statistics of Range - after**
 
-  ![Range_Mutants_Statistics_After](mutation_stat_range_after.png)
+  ![Range_Mutants_Statistics_After](Part%201/mutation_stat_range_after.png)
 
   Below is the coverage of each method calculated manually for the Range class after adding test cases. As we could not improve scores significantly test cases for two additional methods were also created.
 
@@ -168,19 +168,19 @@ After commenting out failing test cases in Assignment 3, we ran mutation tests o
 
 - **Mutation score of DataUtilities - before**
 
-  ![Range_Mutants_Score_Before](PIT_Coverage_Score_Before.png)
+  ![Range_Mutants_Score_Before](Part%201/PIT_Coverage_Score_Before.png)
 
 - **Mutation statistics of DataUtilities - before**
 
-  ![Range_Mutants_Statistics_Before](PIT_Coverage_Stats_Before.png)
+  ![Range_Mutants_Statistics_Before](Part%201/PIT_Coverage_Stats_Before.png)
 
 - **Mutation score of DataUtilities - after**
 
-  ![Range_Mutants_Score_After](PIT_Coverage_Score_After.png)
+  ![Range_Mutants_Score_After](Part%201/PIT_Coverage_Score_After.png)
 
 - **Mutation statistics of DataUtilities - after**
 
-  ![Range_Mutants_Statistics_After](PIT_Coverage_Stats_After.png)
+  ![Range_Mutants_Statistics_After](Part%201/PIT_Coverage_Stats_After.png)
 
 # Analysis drawn on the effectiveness of each of the test classes
 

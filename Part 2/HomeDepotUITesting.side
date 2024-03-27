@@ -1,0 +1,877 @@
+{
+  "id": "2eaef2e3-b70b-4021-be51-6828a7901890",
+  "version": "2.0",
+  "name": "HomeDepotUITesting",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "f32b4be7-7f5f-4521-a5ea-c661e083546e",
+    "name": "Update Quantity in Cart ",
+    "commands": [{
+      "id": "6a9d992c-bf64-411d-b92a-703ff1534538",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1a171fd-af8b-41b0-a0d2-e36ef5c7ac55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d44ae71a-3aef-4154-b3f4-b7474a70cfd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "435bf114-0a08-47f9-9a17-76b02e398a8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bath')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d092ae7-37df-45e5-aa87-9fad70de380d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(6) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(6) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[6]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/acl-flyout-category-menu-item[6]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bathroom Sinks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a805554a-b348-457e-8c38-a3b18b1d56bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l3']/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//acl-flyout-category-menu-item[6]/div/div/div/div[2]/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Vessel Sinks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b639e08-a81e-494f-a68f-05c3159aba27",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbfd3d1b-ea89-447c-9644-ca0ba0e3e679",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a6bd8d2-715c-430c-b4f7-91c285b3566f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,69)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21b07d48-61d6-48f8-8066-360343d59846",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-button--size--medium:nth-child(1)",
+      "targets": [
+        ["css=.acl-button--size--medium:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue Shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfa4797c-d9fd-4756-8a6d-ba26d7f18e6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "819f77b2-5e07-4ef4-90c1-c8b9b16d1664",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,36)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8d05b2b-ec2c-4e42-a67c-653fbbba361c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-select",
+      "targets": [
+        ["css=.acl-select", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ed1c72f-d21b-47d3-924c-4a9afe1cfc5e",
+      "comment": "",
+      "command": "select",
+      "target": "css=.acl-select",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "3b31a8f3-6688-46e8-98ae-44f4ace7bd61",
+      "comment": "Waiting for subtotal to change",
+      "command": "waitForText",
+      "target": "css=.acl-title > .ng-star-inserted",
+      "targets": [],
+      "value": "$367.36"
+    }, {
+      "id": "1951392d-4dff-4710-bd47-56e5a845e44c",
+      "comment": "This assertion checks that after updating the quantity, the text of the specified element matches \"367.36\", verifying that the quantity update was successful.",
+      "command": "assertText",
+      "target": "css=.acl-title > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-title > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "$367.36"
+    }, {
+      "id": "114040b0-1b70-4f85-a4ce-e78ef352d65e",
+      "comment": "Check for Correct Cart State",
+      "command": "assertText",
+      "target": "css=.acl-weight--regular:nth-child(1)",
+      "targets": [],
+      "value": "2 item(s)"
+    }]
+  }, {
+    "id": "a3db0d5d-4ba2-409a-9ff6-4ba3017204b1",
+    "name": "Switch Language from English to French",
+    "commands": [{
+      "id": "863c2158-c8f1-4ff1-9ff8-c25f2a88c3fd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e1d5d6a-b403-4b97-88c8-4f5ce68c645c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cb28fbf-8585-49ee-b331-1d14e42768d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Français",
+      "targets": [
+        ["linkText=Français", "linkText"],
+        ["css=sc-lang-toggle-micro .acl-text-size--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Français')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '')])[8]", "xpath:href"],
+        ["xpath=//sc-lang-toggle-micro/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Français')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b924bb5f-9c77-4534-85f4-3430efc8c8f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-main-nav-item__icon > svg",
+      "targets": [
+        ["css=.acl-main-nav-item__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0a5fd91-2cc5-4c70-ad22-10b3cdbd3967",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-menu-main__events-content > .acl-flyout-category-menu-item:nth-child(1) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-menu-main__events-content > .acl-flyout-category-menu-item:nth-child(1) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//acl-dropdown[@id='global-header-sbd-flyout-menu-dropdown']/div[4]/acl-flyout-menu-main/div/div[3]/div/div[2]/div[2]/acl-flyout-category-menu-item/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/acl-flyout-category-menu-item/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Rénovez à bon prix')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4a5b8d9-a2d6-4075-9b62-76bd4c79b72b",
+      "comment": "Check if the header text got changed from English",
+      "command": "assertText",
+      "target": "css=.hdca-cms-title--is-h1",
+      "targets": [],
+      "value": "Rénovez à bon prix"
+    }, {
+      "id": "0cbc0a0f-fd13-4b93-a69c-133c1be7b5da",
+      "comment": "Check if the option to go back to English exists",
+      "command": "assertText",
+      "target": "linkText=English",
+      "targets": [],
+      "value": "English"
+    }]
+  }, {
+    "id": "548d24c5-0dec-4722-9644-52d924ed1da1",
+    "name": "Navigate to a Specific Department Objective",
+    "commands": [{
+      "id": "dbc7100e-3a38-4998-b909-47fcb6ceed40",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b44c0fdf-1e5b-454f-b4b8-c52b513bc818",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a058833-652e-487a-8668-0ec56dc24712",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Appliances",
+      "targets": [
+        ["linkText=Appliances", "linkText"],
+        ["css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(1) .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/categories/appliances.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/acl-flyout-category-menu-item/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Appliances')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2644063-7159-4bb0-a934-b060ff78df6c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Appliances",
+      "targets": [
+        ["linkText=Appliances", "linkText"],
+        ["css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(1) .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/categories/appliances.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/acl-flyout-category-menu-item/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Appliances')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4821c055-058e-4de1-be57-40a85d041cdc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--first-visible-desktop .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--first-visible-desktop .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Appliance Promotions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77868967-aeba-4480-9a91-15fab8f2682a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-cms-title--is-h1",
+      "targets": [
+        ["css=.hdca-cms-title--is-h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Appliance Savings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5beb11bc-5c52-43d5-bf83-036e87c514e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fa388e0-7ce0-4a06-b1b8-d01ebcab1674",
+      "comment": "Validate Specific Department objective",
+      "command": "assertText",
+      "target": "css=.hdca-cms-title--is-h1",
+      "targets": [
+        ["css=.hdca-cms-title--is-h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Appliance Savings')]", "xpath:innerText"]
+      ],
+      "value": "Appliance Savings"
+    }, {
+      "id": "25d35063-46a9-4a25-9d8a-03b87103b5fe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "21e51e55-91c2-4ac2-88d3-c7786f34b2e5",
+    "name": "Use the Site Search with a Blank Query Objective",
+    "commands": [{
+      "id": "a47134a1-32fe-49e7-84e7-35a53cb52fc3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7986df99-0a98-49dd-8768-bbf9089e2e1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "987x528",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9c18cb1-9ac6-488d-b9b7-faa8d3a06357",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88b50161-1f20-4cba-b341-e37748a282d3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d26eade-520d-42ea-8bc7-d28e6379b8a0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-action-button",
+      "targets": [
+        ["css=.acl-action-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//acl-input-action-button-container/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef142e5e-13c6-4db1-9a5f-17bd9c2f14f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=id6210",
+      "targets": [
+        ["id=id6210", "id"],
+        ["css=#id6210", "css:finder"],
+        ["xpath=//input[@id='id6210']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2f23b78-2298-4bae-93de-db751ecd8390",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "66b03b31-eee8-4eba-bf64-679807dfb84b",
+      "comment": "Site Search with a blank query does not change",
+      "command": "assertText",
+      "target": "css=.hdca-cms-rich-text__selection--font-size--large",
+      "targets": [
+        ["css=.hdca-cms-rich-text__selection--font-size--large", "css:finder"],
+        ["xpath=//h2/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Popular Searches')]", "xpath:innerText"]
+      ],
+      "value": "Popular Searches"
+    }, {
+      "id": "5df6ed47-1e6a-4fec-9a46-658c7788b880",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "876b2847-cb2e-418f-ba69-6d4feab8eae7",
+    "name": "Changing default store location",
+    "commands": [{
+      "id": "578b92cf-a4e3-469d-a3d4-276c8d26c62b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dd68a27-3b85-467f-b8f5-1df1129f3c24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ca7d6d6-151a-4e76-a040-51834e965cd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Park Royal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ee4e4f9-f9f6-45d7-83ee-eab5864d17cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c19258-5c6d-4994-9e73-cfc6f90060f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//div[2]/div[3]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de71d0b6-3bf2-436e-8379-6154525d6c75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu > .acl-store-hours-menu",
+      "targets": [
+        ["css=.acl-store-hours-menu > .acl-store-hours-menu", "css:finder"],
+        ["xpath=//acl-store-hours-menu/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b3cd952-0e44-4d58-8b5b-1a0dba7a663b",
+      "comment": "Check if the store name has changed at the top",
+      "command": "assertText",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Vancouver')]", "xpath:innerText"]
+      ],
+      "value": "Vancouver"
+    }, {
+      "id": "450f1ca3-6024-4fbc-a643-af77ef4fbf30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a70e2d5-bbe9-4efa-8113-f01b7eab2ffa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(1) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(1) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/acl-flyout-category-menu-item/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Appliances')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2387f884-db72-4b0c-a434-167dfab9aa0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Kitchen Packages')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6284aac4-6ff2-488a-b139-d5453ea454ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__info",
+      "targets": [
+        ["css=.acl-store-hours-menu__info", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0935a7e7-e960-4e62-99a2-97278a75707f",
+      "comment": "Check if the store name is consistent if the page changes",
+      "command": "assertText",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Vancouver Cambie')]", "xpath:innerText"]
+      ],
+      "value": "Vancouver"
+    }]
+  }, {
+    "id": "d5a549ac-84b7-4ed6-a4fc-49ac82df371f",
+    "name": "Update Quantity in Cart  (1)",
+    "commands": [{
+      "id": "bf374ddf-9122-4a5b-aada-c01632c749da",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78baaf69-a549-4351-8ed0-4f16f243bc2a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c0f7099-19e4-4427-a302-bf0903eb323c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3bc530d-9b33-4aaa-83dd-e8d95971bc94",
+      "comment": "",
+      "command": "click",
+      "target": "css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bath')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a1ee67-6938-4bfd-b380-918074a3c43c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(6) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(6) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[6]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/acl-flyout-category-menu-item[6]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bathroom Sinks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a491a9dd-02c3-4aae-91de-e932fa44a74f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l3']/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//acl-flyout-category-menu-item[6]/div/div/div/div[2]/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Vessel Sinks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7eed6bc-5031-4f00-acb2-599f664dee2b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2778eb63-ab87-4edc-a5d5-abca9150e2ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "347806d2-c3e2-4140-958d-2d696294ce54",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,69)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "201f39ad-c228-4f37-90eb-12540b39d8d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-button--size--medium:nth-child(1)",
+      "targets": [
+        ["css=.acl-button--size--medium:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue Shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa28711a-04c9-4662-8af0-eb5449d9113d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d61b351a-13c7-451b-abd3-e122cfb05fca",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,36)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dda57e4b-c8b7-4af2-8366-58892cf1d977",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-select",
+      "targets": [
+        ["css=.acl-select", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c890171c-aad9-4150-ae4d-28c141cfb743",
+      "comment": "",
+      "command": "select",
+      "target": "css=.acl-select",
+      "targets": [],
+      "value": "label=3"
+    }, {
+      "id": "08ab81dc-2086-4f10-a81d-1666146bb0c7",
+      "comment": "Waiting for subtotal to change",
+      "command": "waitForText",
+      "target": "css=.acl-title > .ng-star-inserted",
+      "targets": [],
+      "value": "$551.04"
+    }, {
+      "id": "fcd96cc0-a1c5-4fe4-8187-7091cac70f21",
+      "comment": "This assertion checks that after updating the quantity, the text of the specified element matches \"367.36\", verifying that the quantity update was successful.",
+      "command": "assertText",
+      "target": "css=.acl-title > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-title > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "$551.04"
+    }, {
+      "id": "17e30d4c-57b1-4e55-9984-cb803b415fd6",
+      "comment": "Check for Correct Cart State",
+      "command": "assertText",
+      "target": "css=.acl-weight--regular:nth-child(1)",
+      "targets": [],
+      "value": "3 item(s)"
+    }]
+  }, {
+    "id": "3212cc52-6cd2-49d0-becc-be29a912ce9b",
+    "name": "Navigate to a Specific Department Objective (1)",
+    "commands": [{
+      "id": "a1f549a8-de50-4603-8045-2ebd9f177cda",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13f67b68-7edb-45b7-abba-993fc902f6cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b13955c5-e10e-4419-8aa9-d07a94c0917f",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095f6eaa-e003-4a5d-91e6-e2c9c65bd041",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#RoomMainNavNodeContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#RoomMainNavNodeContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='RoomMainNavNodeContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18285702-ee1b-4ba2-98f1-0adf9aaae3b3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#RoomMainNavNodeContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#RoomMainNavNodeContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='RoomMainNavNodeContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a0dc52-405d-4154-af7c-e4f0ad3c0ec8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e023698-7db0-4ca5-ad6a-2a64eca04aef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--has-ad-spot:nth-child(6) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--has-ad-spot:nth-child(6) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item[6]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/acl-flyout-category-menu-item[6]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cleaning')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c591c012-5918-4a2c-b10f-27dac70d5467",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--first-visible-desktop .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--first-visible-desktop .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Household Cleaners')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eea5305-cb49-4fc2-9cbf-d975c7c2db89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3A acl-display--inline",
+      "targets": [
+        ["css=.md\\3A acl-display--inline", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Household Cleaners')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e7eacf7-c0cc-4779-91b8-d206d4091ced",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3A acl-display--inline",
+      "targets": [
+        ["css=.md\\3A acl-display--inline", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Household Cleaners')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adbb1d65-eec0-4883-ac54-4ee2b08e8870",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3A acl-display--inline",
+      "targets": [
+        ["css=.md\\3A acl-display--inline", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Household Cleaners')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3167ec9-7e64-4447-b8da-27a7ca61b90c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.md\\3A acl-display--inline",
+      "targets": [
+        ["css=.md\\3A acl-display--inline", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Household Cleaners')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b887c421-16bd-4477-b948-f35c0d7a4449",
+      "comment": "Check if the page got changed correctly and is in the new department",
+      "command": "assertText",
+      "target": "css=.md\\3A acl-display--inline",
+      "targets": [
+        ["css=.md\\3A acl-display--inline", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Household Cleaners')]", "xpath:innerText"]
+      ],
+      "value": "Household Cleaners"
+    }]
+  }],
+  "suites": [{
+    "id": "65f53a25-bb68-4e61-8eed-94c2b069a489",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

@@ -1,0 +1,284 @@
+{
+  "id": "53061708-b0b3-497c-bc81-d7bd9b1b348f",
+  "version": "2.0",
+  "name": "Assignment04",
+  "url": "https://shopsmartcanada.com/",
+  "tests": [{
+    "id": "d5b1e1b3-4808-481f-b4a2-67e49d09c719",
+    "name": "01-Login-with-Invalid-Credentials",
+    "commands": [{
+      "id": "2e453cac-d5ac-4db5-ab97-24a7a07f7637",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd941e35-1fa5-4286-be66-6ab73d53eb81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navUser-action:nth-child(3) > .\\_label",
+      "targets": [
+        ["css=.navUser-action:nth-child(3) > .\\_label", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd84193a-c6d9-4d30-96b7-01f00c6df5ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login_email", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c824522c-4d82-48ac-90b0-003fe60fbb20",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login_email", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "test@gmail.com"
+    }, {
+      "id": "a587fe64-220f-4200-bd31-7f2281a508f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_pass",
+      "targets": [
+        ["id=login_pass", "id"],
+        ["name=login_pass", "name"],
+        ["css=#login_pass", "css:finder"],
+        ["xpath=//input[@id='login_pass']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6c88558-756b-4401-b0dc-a615ef3035a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_pass",
+      "targets": [
+        ["id=login_pass", "id"],
+        ["name=login_pass", "name"],
+        ["css=#login_pass", "css:finder"],
+        ["xpath=//input[@id='login_pass']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "e9d189ed-a15b-4b6d-a2ee-7a7df1cb2a0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-actions > .button",
+      "targets": [
+        ["css=.form-actions > .button", "css:finder"],
+        ["xpath=//input[@value='Sign in']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74c28d61-0dba-4207-b728-a44135148878",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Shop Smart Canada - Sign in",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "33709d18-5acb-4a0a-b680-c53d13dae551",
+    "name": "02-Add-Item-to-Cart",
+    "commands": [{
+      "id": "9e137211-7fd2-4d33-9ed9-c27d2719f2a0",
+      "comment": "",
+      "command": "open",
+      "target": "huggies-pull-ups-plus-training-pants-3t-to-4t-girl-116-pack/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8615873-d4a4-43b6-8c26-8756bead46e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-action-addToCart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dc643ba-da25-43b8-8ef3-9f535129319f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cart-item-value",
+      "targets": [],
+      "value": "$64.69"
+    }]
+  }, {
+    "id": "629508e7-5b6c-46be-9676-fe61560da1ca",
+    "name": "03-Delete-Item-From-Cart",
+    "commands": [{
+      "id": "e26b883c-3d0b-4bcf-9a44-5cc88b5b6e1c",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e56ee77-2eb6-48e5-9590-c137c7283415",
+      "comment": "",
+      "command": "click",
+      "target": "css=.u-hideMobile .\\_total-price-nav",
+      "targets": [
+        ["css=.u-hideMobile .\\_total-price-nav", "css:finder"],
+        ["xpath=//div[@id='bf-fix-menu-mobile']/a/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div/a/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59f4e505-8e11-4413-9239-76f58ffaf30f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartItem-remove-icon use",
+      "targets": [
+        ["css=.previewCartItem:nth-child(2) .previewCartItem-remove use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c84eb9fc-319d-40b3-9250-9b52f3da8b15",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.previewCart-emptyBody",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "0987906d-ed92-428f-9dbd-10eb3971b31f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.previewCart-emptyBody",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0c57a7f8-d2d5-412a-895d-d3bb1827141b",
+    "name": "04-Go-to-Checkout",
+    "commands": [{
+      "id": "22c318dd-2c00-4e84-8ea5-ddc9fdbfe631",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54716653-b8b3-40d1-90be-2be89bfdc637",
+      "comment": "",
+      "command": "click",
+      "target": "css=.u-hideMobile .\\_single-item",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63018e20-4edc-4390-9c67-e98fe14b2550",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.u-hideMobile .\\_single-item",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f69dae60-41b3-427c-85ab-b4ed5ecdc605",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartAction-checkout > .button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0beea95a-04d8-4c04-ac29-2c7ed4357b4e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Checkout - Shop Smart Canada",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c4e47fc0-34dd-488c-83c3-f7e9c569a3ff",
+    "name": "05-Search-Valid-Item",
+    "commands": [{
+      "id": "edfdc178-5a2c-4b9d-b1a9-f6e74e9c9722",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e3155ab-ebb1-4f8c-bd83-d92cca7ed20d",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "326195d1-c523-41d9-9273-649be749a725",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "diaper"
+    }, {
+      "id": "d4cfa5a1-faf2-4861-9b89-da742d31e8e8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f8001f3a-8606-4379-b84c-0ed0ac8bbd86",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#search-results-heading > .page-heading",
+      "targets": [],
+      "value": "7 results for 'diaper'"
+    }]
+  }],
+  "suites": [{
+    "id": "533c7dab-a0a3-4744-9176-3b37bde99a9a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://shopsmartcanada.com/"],
+  "plugins": []
+}
